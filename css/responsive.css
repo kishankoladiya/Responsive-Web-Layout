@@ -1,0 +1,113 @@
+@media screen and (min-width: 1200px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-link-header{
+        padding: 38px 40px 38px 0 !important;
+    }
+    .nav-link-header-docs{
+        padding-right: 0 !important;
+    }
+    .navbar{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .nav-social>ul>li>a{
+        margin-right: 35px;
+    }
+    .our-support-service{
+        padding-bottom: 60px !important;
+    }
+}
+@media screen and (max-width: 1200px){
+    .navbar{
+        display: none;
+    }
+    .thumbnail img{
+        width: 105px;
+        height: 140px;
+    }
+    #single-product .item{
+        height: 595px;
+        /* width: 445px; */
+        width: 100%;
+    }
+}
+
+
+@media screen and (min-width: 1201px){
+    .nav-bar-two{
+        display: none !important;
+    }
+    .thumbnail img{
+        width: 143px;
+        height: 192px;
+    }
+    #single-product .item{
+        height: 799px;
+        /* width: 663px; */
+        width: 100%;
+    }
+    .single-product-details{
+        padding-left: 70px !important;
+    }
+}
+
+
+@media screen and (max-width: 992px){
+    .home-offer-banner{
+        padding-top: 60px !important;
+    }
+    .home-offer-banner-1{
+        margin-bottom: 30px !important;
+    }
+    #description .nav-pills .nav-link{
+        font-size: 24px;
+    }
+
+    .top-footer{
+        padding-top: 75px !important;
+        padding-bottom: 50px !important;
+    }
+    .footer-menu{
+        padding-top: 50px !important;
+    }
+
+    #single-product .item{
+        height: 424px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .top-footer{
+        padding-top: 110px !important;
+        padding-bottom: 150px !important;
+    }
+    #description .nav-pills .nav-link{
+        font-size: 34px;
+    }
+    
+}
+
+
+@media screen and (max-width: 768px){
+
+    .slider-1-contant h1{
+        font-size: 36px !important;
+    }
+    .footer-icon-pay{
+        display: flex;
+        justify-content: start;
+    }
+    #single-product .item{
+        height: 799px;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    .footer-icon-pay{
+        display: flex !important;
+        justify-content: end !important;
+    }
+}
